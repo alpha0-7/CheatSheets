@@ -25,4 +25,12 @@ Cheat sheets(Linux/MacOS/Win)
  * inet6 fe80::72fe:5a67:f907:c962%utun0 prefixlen 64 scopeid 0xa
  * inet6 fe80::ad7:28b0:4cd7:65a4%utun1 prefixlen 64 scopeid 0xb
 
+## => Installing Docker:
+- sudo apt install docker docker.io docker-compose -y = Installing docker
+- sudo systemctl start docker && sudo systemctl status docker = Start and view docker status
+- sudo usermod -aG $USER = Adding your (logged in/current) user to docker group
+
+## => Epoch time conversion in bash (one liner for loop):
+- for in * ; do date -r $i ; done
+  
 ### Will be updated with more soon
