@@ -32,5 +32,8 @@ Cheat sheets(Linux/MacOS/Win)
 
 ## => Epoch time conversion in bash (one liner for loop):
 - for in * ; do date -r $i ; done
+
+## => Checking for ports in use and grepping for "(ESTABLISHED)":
+- sudo lsof -i | grep "(ESTABLISHED)"
   
 ### Will be updated with more soon...
